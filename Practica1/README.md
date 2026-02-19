@@ -176,17 +176,17 @@ Se incluyen captura de pantalla del programa en ejecucion con:
 
 > ### Registros agregados
 
-![Agregar registro de imagen](imgs\agregar.png)
-![Registros guardados](imgs\agregado.png)
+![Agregar registro de imagen](imgs/agregar.png)
+![Registros guardados](imgs/agregado.png)
 
 > ### Estadisticas generadas
   
-![Estadisticas](imgs\estadisticas.png)
+![Estadisticas](imgs/estadisticas.png)
 
 > ### Eliminacion confimada
 
-![Eliminar registro](imgs\eliminar.png)
-![Registro eliminado](imgs\eliminado.png)
+![Eliminar registro](imgs/eliminar.png)
+![Registro eliminado](imgs/eliminado.png)
   
 ## **Conclusion**
 
