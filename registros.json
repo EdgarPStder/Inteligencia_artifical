@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "paisaje_montana",
+        "ancho": 1920,
+        "alto": 1080,
+        "canales": 3,
+        "formato": "jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "retrato_estudio",
+        "ancho": 1080,
+        "alto": 1350,
+        "canales": 3,
+        "formato": "png"
+    },
+    {
+        "id": 3,
+        "nombre": "radiografia",
+        "ancho": 2048,
+        "alto": 2048,
+        "canales": 1,
+        "formato": "bmp"
+    },
+    {
+        "id": 4,
+        "nombre": "render_arquitectura",
+        "ancho": 3840,
+        "alto": 2160,
+        "canales": 4,
+        "formato": "png"
+    },
+    {
+        "id": 5,
+        "nombre": "textura_madera",
+        "ancho": 1024,
+        "alto": 1024,
+        "canales": 3,
+        "formato": "tiff"
+    },
+    {
+        "id": 6,
+        "nombre": "icono_app",
+        "ancho": 512,
+        "alto": 512,
+        "canales": 4,
+        "formato": "png"
+    }
+]
