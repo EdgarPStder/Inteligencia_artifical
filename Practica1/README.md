@@ -89,6 +89,8 @@ Esto instala automaticamente todo lo necesario.
 
 ### **3. Ejecuta el programa**
 
+Va a salir de scripts y 2223520216 con ```cd..``` y vas a entras con ```cd Practica1```
+
 ```bash
 python data_mini_lab.py
 ```

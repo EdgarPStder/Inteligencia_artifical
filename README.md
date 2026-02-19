@@ -22,7 +22,6 @@ Cada práctica se encuentra organizada en su propia carpeta dentro del repositor
 
 ### 🔹 [Practica 1 – Data Mini Lab](Practica1/)
 
-
 Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
 
 ### Características
