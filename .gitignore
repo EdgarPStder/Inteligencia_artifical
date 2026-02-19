@@ -1,0 +1,14 @@
+# Entornos virtuales
+2223520216/
+venv/
+env/
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+
+# Configuración VSCode
+.vscode/
