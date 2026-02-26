@@ -20,11 +20,11 @@ Cada práctica se encuentra organizada en su propia carpeta dentro del repositor
 
 ## 📚 Contenido
 
-### 🔹 [Practica 1 – Data Mini Lab](Practica1/)
+### 🔹 [Practica – Data Mini Lab](Practica1/)
 
 Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
 
-#### Características
+#### Características Practica 1
 
 - Agregar registros de imágenes
 - Buscar registros por ID
@@ -35,11 +35,11 @@ Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
 
 ---
 
-### 🔹 [Practica 2 – Bad Robot](Practica01/)
+### 🔹 [Practica 01 – Bad Robot](Practica01/)
 
 Programa que dibuja un robot llamado "Bad Robot" usando exclusivamente primitivas gráficas de OpenCV.
 
-#### Características
+#### Caracteristicas Practica 01
 
 - Dibujo de figuras geométricas (rectángulos, círculos, elipses, polígonos)
 - Generación de patrones repetitivos con bucles (césped y resorte)
