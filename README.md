@@ -24,7 +24,7 @@ Cada práctica se encuentra organizada en su propia carpeta dentro del repositor
 
 Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
 
-### Características
+#### Características
 
 - Agregar registros de imágenes
 - Buscar registros por ID
@@ -35,10 +35,25 @@ Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
 
 ---
 
+### 🔹 [Practica 2 – Bad Robot](Practica01/)
+
+Programa que dibuja un robot llamado "Bad Robot" usando exclusivamente primitivas gráficas de OpenCV.
+
+#### Características
+
+- Dibujo de figuras geométricas (rectángulos, círculos, elipses, polígonos)
+- Generación de patrones repetitivos con bucles (césped y resorte)
+- Manipulación de lienzos con NumPy
+- Renderizado de texto en imágenes
+
+---
+
 ## ⚙️ Tecnologías utilizadas
 
 - Python 3
 - JSON
+- OpenCV
+- NumPy
 - Git
 - GitHub
 
@@ -56,6 +71,8 @@ git clone https://github.com/TU_USUARIO/Inteligencia_artificial.git
 
 ```bash
 cd Practica1
+# o
+cd Practica01
 ```
 
 3 Crear entorno virtual:
@@ -87,7 +104,11 @@ pip install -r requirements.txt
 6 Ejecutar el programa:
 
 ```bash
+# Practica 1
 python data_mini_lab.py
+
+# Practica 2
+python bad_robot.py
 ```
 
 ---
@@ -100,5 +121,5 @@ Desarrollar habilidades prácticas en programación aplicada a Inteligencia Arti
 
 ## 👨‍💻 Autor
 
-Edgar Gael Pesina Santander  
+Edgar Gael Pesina Santander
 Estudiante de Ingeniería en Sistemas
