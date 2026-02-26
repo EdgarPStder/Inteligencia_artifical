@@ -89,7 +89,6 @@ cv2.polylines(canvas, [puntos_nariz], isClosed=False, color=(0, 0, 0), thickness
 # Escribimos el nombre del robot en la parte de abajo
 cv2.putText(canvas,'BAD ROBOT',(128,500), cv2.FONT_HERSHEY_TRIPLEX, 1.5, (255,255,255), 1, cv2.LINE_AA)
 
-
 # Mostramos la ventana con el dibujo final
 cv2.imshow(window_name, canvas)
 
