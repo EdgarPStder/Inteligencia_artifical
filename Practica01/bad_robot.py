@@ -96,3 +96,6 @@ cv2.imshow(window_name, canvas)
 # Esperamos a que el usuario presione cualquier tecla para cerrar
 cv2.waitKey(0) # 0 significa que eperara indefinidamente
 cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    pass
