@@ -58,42 +58,17 @@ python -m pip install --upgrade pip
 python data_mini_lab.py
 ```
 
-## **Instalacion**
+## **Instalación y ejecución**
 
-### **1. Descarga y Descomprime**
-
-Extraer el proyecto.
-Entrar a la carpeta:
+Esta práctica solo usa la biblioteca estándar de Python, así que no hay dependencias que instalar.
 
 ```bash
-cd 2223520216
-```
-
-### **2. Activa entorno**
-
-```bash
-cd Scripts\activate
-2223520216\Scripts>activate
-(2223520216) 2223520216\Scripts>
-```
-
-### **3. Instalar dependencias**
-
-Si no hay dependeicas instalalas con este comando.
-
-```bash
-pip install -r requirements.txt
-```
-
-Esto instala automaticamente todo lo necesario.
-
-### **3. Ejecuta el programa**
-
-Va a salir de scripts y 2223520216 con ```cd..``` y vas a entras con ```cd Practica1```
-
-```bash
+git clone https://github.com/EdgarPStder/Inteligencia_artifical.git
+cd Inteligencia_artifical/Practica01_DataMiniLab
 python data_mini_lab.py
 ```
+
+Los registros se guardan en `registros.json` dentro de esta carpeta.
 
 ## **Funcionalidades**
 

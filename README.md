@@ -1,125 +1,76 @@
-# 🧠 Inteligencia Artificial - Prácticas
+# Inteligencia Artificial — Prácticas
 
-Repositorio que contiene las prácticas y proyectos desarrollados durante la materia de Inteligencia Artificial.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
----
-
-## 📌 Descripción
-
-Este repositorio reúne ejercicios prácticos enfocados en:
-
-- Manipulación y gestión de datos
-- Estructuración de proyectos en Python
-- Uso de archivos JSON
-- Control de versiones con Git y GitHub
-- Buenas prácticas de desarrollo
-
-Cada práctica se encuentra organizada en su propia carpeta dentro del repositorio.
+Prácticas de la materia **Inteligencia Artificial** (Ingeniería en Sistemas Computacionales, 8.º semestre, UAT — UAM Mante, 2026). Cada práctica vive en su propia carpeta, con su `README.md`, sus dependencias y capturas de su ejecución.
 
 ---
 
-## 📚 Contenido
+## Prácticas
 
-### 🔹 [Practica – Data Mini Lab](Practica1/)
+| # | Práctica | Temas | Tecnologías |
+|---|---|---|---|
+| 01 | [**Data Mini Lab**](Practica01_DataMiniLab/) — gestor en consola de metadatos de imágenes | Estructuras de datos, modularización, validación de entradas, persistencia en JSON | Python (solo biblioteca estándar) |
+| 02 | [**Bad Robot**](Practica02_BadRobot/) — dibujo de un robot con primitivas gráficas | Lienzos con NumPy, rectángulos, círculos, elipses, polígonos, texto; patrones con bucles | Python, OpenCV, NumPy |
 
-Sistema en consola desarrollado en Python para gestionar metadatos de imágenes.
+### 01 · Data Mini Lab
 
-#### Características Practica 1
+Sistema CRUD en consola para registros de imágenes (nombre, ancho, alto, canales y formato): agregar con validación, listar, buscar por nombre o formato, eliminar por ID y calcular estadísticas (resolución promedio, máximos, mínimos y conteo por formato). Los datos persisten en `registros.json`.
 
-- Agregar registros de imágenes
-- Buscar registros por ID
-- Eliminar registros
-- Listar todos los registros
-- Calcular estadísticas
-- Persistencia de datos en archivo JSON
+| Agregar | Estadísticas |
+|---|---|
+| ![Agregar registro](Practica01_DataMiniLab/imgs/agregar.png) | ![Estadísticas](Practica01_DataMiniLab/imgs/estadisticas.png) |
 
----
+### 02 · Bad Robot
 
-### 🔹 [Practica 01 – Bad Robot](Practica01/)
+Reproduce la ilustración de un robot usando únicamente primitivas de OpenCV sobre un lienzo de 512×512.
 
-Programa que dibuja un robot llamado "Bad Robot" usando exclusivamente primitivas gráficas de OpenCV.
-
-#### Caracteristicas Practica 01
-
-- Dibujo de figuras geométricas (rectángulos, círculos, elipses, polígonos)
-- Generación de patrones repetitivos con bucles (césped y resorte)
-- Manipulación de lienzos con NumPy
-- Renderizado de texto en imágenes
+| Referencia | Resultado |
+|---|---|
+| ![Referencia](Practica02_BadRobot/imgs/bad_robot.jpg) | ![Resultado](Practica02_BadRobot/imgs/bad_robot_creado.png) |
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Cómo ejecutar una práctica
 
-- Python 3
-- JSON
-- OpenCV
-- NumPy
-- Git
-- GitHub
-
----
-
-## 🚀 Cómo ejecutar una práctica
-
-1 Clonar el repositorio:
+**Requisitos:** Python 3.10 o superior.
 
 ```bash
-git clone https://github.com/TU_USUARIO/Inteligencia_artificial.git
-```
+git clone https://github.com/EdgarPStder/Inteligencia_artifical.git
+cd Inteligencia_artifical/Practica02_BadRobot   # o Practica01_DataMiniLab
 
-2 Entrar a la carpeta de la práctica:
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# Linux/macOS:
+source .venv/bin/activate
 
-```bash
-cd Practica1
-# o
-cd Practica01
-```
-
-3 Crear entorno virtual:
-
-```bash
-python -m venv venv
-```
-
-4 Activar entorno virtual:
-
-Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Mac/Linux:
-
-```bash
-source venv/bin/activate
-```
-
-5 Instalar dependencias:
-
-```bash
 pip install -r requirements.txt
+python bad_robot.py                              # o python data_mini_lab.py
 ```
 
-6 Ejecutar el programa:
+## Estructura
 
-```bash
-# Practica 1
-python data_mini_lab.py
-
-# Practica 2
-python bad_robot.py
+```
+.
+├── Practica01_DataMiniLab/
+│   ├── data_mini_lab.py     Menú principal
+│   ├── utils.py             Funciones CRUD, estadísticas y persistencia
+│   ├── registros.json       Datos de ejemplo
+│   └── imgs/                Capturas
+└── Practica02_BadRobot/
+    ├── bad_robot.py
+    └── imgs/                Referencia y resultado
 ```
 
 ---
 
-## 🎯 Objetivo del repositorio
+## Autor
 
-Desarrollar habilidades prácticas en programación aplicada a Inteligencia Artificial, estructuración de proyectos y gestión profesional de código.
+**Edgar Gael Pesina Santander** — Ingeniería en Sistemas Computacionales, Universidad Autónoma de Tamaulipas.
+GitHub: [@EdgarPStder](https://github.com/EdgarPStder)
 
----
+## Licencia
 
-## 👨‍💻 Autor
-
-Edgar Gael Pesina Santander
-Estudiante de Ingeniería en Sistemas
+Código bajo licencia [MIT](LICENSE).

@@ -1,0 +1,2 @@
+# Esta práctica solo usa la biblioteca estándar de Python (json).
+# No hay dependencias externas que instalar.
