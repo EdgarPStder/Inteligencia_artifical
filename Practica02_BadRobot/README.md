@@ -1,4 +1,4 @@
-# **Practica 1: Herramientas de Dibujo**
+# **Práctica 2: Herramientas de Dibujo**
 
 **Asignatura:** Inteligencia Artificial  
 **Carrera:** Ingeniero en Sistemas Computacionales (ISC) 8°  
@@ -58,12 +58,11 @@ python -m pip install --upgrade pip
 
 ## **Instalación**
 
-### **1. Descarga y descomprime el proyecto**
-
-Extraer el proyecto y entrar a la carpeta:
+### **1. Clona el repositorio y entra a la carpeta**
 
 ```bash
-cd bad_robot
+git clone https://github.com/EdgarPStder/Inteligencia_artifical.git
+cd Inteligencia_artifical/Practica02_BadRobot
 ```
 
 ### **2. Activa el entorno virtual**
@@ -110,9 +109,10 @@ pip install numpy opencv-python
 ## **Estructura del Proyecto**
 
 ```bash
-bad_robot/
+Practica02_BadRobot/
 │
 ├── bad_robot.py        # Archivo principal con todo el código
+├── imgs/               # Referencia y resultado del dibujo
 ├── requirements.txt    # Dependencias del proyecto
 └── README.md           # Este archivo
 ```
